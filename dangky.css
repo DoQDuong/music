@@ -18,8 +18,8 @@ body {
     border: 1px solid #80808000;
     grid-column: 6/9;
     grid-row: 3;
-    height: 470px;
-    width: 292px;
+    height: 500px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
