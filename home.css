@@ -16,22 +16,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
-.heading {
-    text-align: center;
-    margin: 30px 0;
-}
-
-.heading h1 {
-    margin-bottom: 15px;
-}
-
-.heading h6 {
-    font-size: 15px;
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
 .button {
     border-radius: 20px;
     padding: 10px 25px;
@@ -49,6 +33,7 @@ body {
 }
 
 .albums {
+    float: left;
     display: grid;
     justify-content: center;
     grid-template-columns: auto auto auto;
