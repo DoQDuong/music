@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>giaodien</title>
-  <link rel="stylesheet" href="giaodien.css">
+    <title>music</title>
+    <link rel="stylesheet" href="giaodien.css">
+    <link rel="stylesheet" href="libs/megamenu/css/style.css">
+    <link href="libs/bootstrap5.2.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<header class="section header">
+<header id="header" class="section header">
     <div class="container">
         <a href="https://doduong.herokuapp.com/giaodien.html">
             <figure class="anhweb">
@@ -28,57 +30,336 @@
         </a>
     </div>
 </header>
-<hr>
-<nav>
-    <div class="toggle_menu"><ion-icon name="menu-outline"></ion-icon></div>
-    <ul>
-        <li> <a href="#">
-            <ion-icon name="disc-outline"></ion-icon>
-            Khám Phá
-        </a></li>
-        <li> <a href="#">
-            <ion-icon name="browsers-outline"></ion-icon>
-            Cá Nhân
-        </a></li>
-        <li> <a href="#">
-            <ion-icon name="apps-outline"></ion-icon>
-            Nhạc Mới
-        </a></li>
-        <li> <a href="#">
-            <ion-icon name="reorder-three-outline"></ion-icon>
-            Nổi Tiếng
-        </a></li>
-        <li> <a href="#">
-            <ion-icon name="trending-up-outline"></ion-icon>
-            Xu Hướng
-        </a></li>
-        <li> <a href="#">
-            <ion-icon name="radio-outline"></ion-icon>
-            Radio
-        </a></li>
-        <li> <a href="#">
-            <ion-icon name="headset-outline"></ion-icon>
-            Trực Tiếp
-        </a></li>
-        <li> <a href="#">
-            <ion-icon name="musical-notes-outline"></ion-icon>
-            Danh Sách Phát
-        </a></li>
-        <li> <a href="#">
-            <ion-icon name="heart-outline"></ion-icon>
-            Yêu Thích
-        </a></li>
-    </ul>
+<nav class="section">
+    <div class="menu-container">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Bài Hát</a>
+                    <ul>
+                        <li><a href="#">Việt Nam</a>
+                            <ul>
+                                <li><a href="#">Nhạc Trẻ</a></li>
+                                <li><a href="#">Nhạc Remix</a></li>
+                                <li><a href="#">Nhạc Rap</a></li>
+                                <li><a href="#">Nhạc Trữ Tình</a></li>
+                                <li><a href="#">Nhạc Cách Mạng</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Âu Mỹ</a>
+                            <ul>
+                                <li><a href="#">Pop</a></li>
+                                <li><a href="#">Rock</a></li>
+                                <li><a href="#">EDM</a></li>
+                                <li><a href="#">HipHop</a></li>
+                                <li><a href="#">Jazz</a></li>
+                                <li><a href="#">Âu Mỹ Khác</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Châu Á</a>
+                            <ul>
+                                <li><a href="#">Nhạc Hàn</a></li>
+                                <li><a href="#">Nhạc Hoa</a></li>
+                                <li><a href="#">Nhạc Nhật</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Khác</a>
+                            <ul>
+                                <li><a href="#">Thiếu Nhi</a></li>
+                                <li><a href="#">Không Lời</a></li>
+                                <li><a href="#">Beat</a></li>
+                                <li><a href="#">Lofi Chill</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Playlist</a>
+                    <ul>
+                        <li><a href="#">Việt Nam</a>
+                            <ul>
+                                <li><a href="#">Nhạc Trẻ</a></li>
+                                <li><a href="#">Nhạc Remix</a></li>
+                                <li><a href="#">Nhạc Rap</a></li>
+                                <li><a href="#">Nhạc Trữ Tình</a></li>
+                                <li><a href="#">Nhạc Cách Mạng</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Âu Mỹ</a>
+                            <ul>
+                                <li><a href="#">Pop</a></li>
+                                <li><a href="#">Rock</a></li>
+                                <li><a href="#">EDM</a></li>
+                                <li><a href="#">HipHop</a></li>
+                                <li><a href="#">Jazz</a></li>
+                                <li><a href="#">Âu Mỹ Khác</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Châu Á</a>
+                            <ul>
+                                <li><a href="#">Nhạc Hàn</a></li>
+                                <li><a href="#">Nhạc Hoa</a></li>
+                                <li><a href="#">Nhạc Nhật</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Khác</a>
+                            <ul>
+                                <li><a href="#">Thiếu Nhi</a></li>
+                                <li><a href="#">Không Lời</a></li>
+                                <li><a href="#">Beat</a></li>
+                                <li><a href="#">Lofi Chill</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="http://marioloncarek.com">BXH</a>
+                    <ul>
+                        <li><a href="#">Việt Nam</a></li>
+                        <li><a href="#">Âu Mỹ</a></li>
+                        <li><a href="#">Châu Á</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
+<section class="slider">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <svg><img src="https://upanh123.com/wp-content/uploads/2020/11/anh-background-dep-1.jpg" height="500" width="1000"></svg>
+            </div>
+            <div class="carousel-item">
+                <svg><img src="https://itvn.blog/wp-content/uploads/2020/07/Background-%E1%BA%A5n-t%C6%B0%E1%BB%A3ng-v%E1%BB%9Bi-c%E1%BA%A3nh-%C4%91%E1%BA%B9p-V%E1%BB%8Bnh-H%E1%BA%A1-Long.jpg" height="500" width="1000"></svg>
+            </div>
+            <div class="carousel-item active">
+                <svg><img src="https://scr.vn/wp-content/uploads/2020/08/Background-slide-c%C3%B4ng-ngh%E1%BB%87.jpg" height="500" width="1000"></svg>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" ></span>
+
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" ></span>
+        </button>
+    </div>
+</section>
+<article class="album">
+    <div class="albums">
+        <div class="album-holder">
+            <img class="album-image" src="https://yt3.ggpht.com/a/AGF-l78QGTW3gMAN3s_devNGhlzjBO9eCRPGTg0iUQ=s900-c-k-c0xffffffff-no-rj-mo" alt="britney spears' album titled blackout" >
+            <div class="album-description">
+                <p>Sơn Tùng M-TP</p>
+            </div>
+        </div>
+
+        <div class="album-holder">
+            <img class="album-image" src="https://yt3.ggpht.com/a/AGF-l79zwMpvkBfsuF3qdmxs2zb_HqCzr_W2040Inw=s800-c-k-c0xffffffff-no-rj-mo" alt="niall horan's album titled heartbreak weather" >
+            <div class="album-description">
+                <p>Soobin-Hoàng Sơn</p>
+            </div>
+        </div>
+
+        <div class="album-holder">
+            <img class="album-image" src="https://menback.com/wp-content/uploads/2020/09/rapper-binz-1.jpg" alt="little mix's album titled LM5" >
+            <div class="album-description">
+                <p>BinZ</p>
+            </div>
+        </div>
+
+        <div class="album-holder">
+            <img class="album-image" src="https://event.mediacdn.vn/2020/11/18/justatee-p-16056798456551914748292.png" alt="calum scott's album titled only human" >
+            <div class="album-description">
+                <p>Justa Tee</p>
+            </div>
+        </div>
+
+        <div class="album-holder">
+            <img class="album-image" src="https://nguoinoitieng.tv/images/nnt/0/4/oj.jpg" alt="avicii's album titled true" >
+            <div class="album-description">
+                <p>Isaac</p>
+            </div>
+        </div>
+
+        <div class="album-holder">
+            <img class="album-image" src="https://nguoinoitieng.tv/images/nnt/0/0/aw.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Chi Dân</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://nguoinoitieng.tv/images/nnt/100/0/bevd.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Vũ</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://toplist.vn/images/800px/hien-ho-630866.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Hiền Hồ</p>
+            </div>
+        </div>  <div class="album-holder">
+        <img class="album-image" src="https://i.vietgiaitri.com/2019/11/5/bi-so-van-hoa-nam-dau-vi-hat-nhep-bich-phuong-tiep-tuc-gay-tranh-cai-khi-dai-dien-viet-nam-bieu-dien-cung-nghe-si-quoc-te-aefb3e.png" alt="aly & aj's album titled 10 Years" >
+        <div class="album-description">
+            <p>Bích Phương</p>
+        </div>
+    </div>  <div class="album-holder">
+        <img class="album-image" src="https://static2.yan.vn/YanNews/202009/202009300302365865-8fe597c8-f32c-402e-88f0-e4a94f9ade4e.png" alt="aly & aj's album titled 10 Years" >
+        <div class="album-description">
+            <p>Tlinh</p>
+        </div>
+    </div>  <div class="album-holder">
+        <img class="album-image" src="https://kenh14cdn.com/thumb_w/600/KLjycQrZbvYVXPuqvzsFpD2WBDzcc/Image/2015/03/IMG_0120-da5b5.jpg" alt="aly & aj's album titled 10 Years" >
+        <div class="album-description">
+            <p>Bảo Anh</p>
+        </div>
+    </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://media.laodong.vn/Storage/NewsPortal/2020/10/6/842256/Hoang-Thuy-Linh-2.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Hoàng Thùy Linh</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://static2.yan.vn/YanNews/2167221/201910/den-vau-dat-top-1-trending-youtube-voi-loi-nho-f7f80be8.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Đen Vâu</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://tse3.mm.bing.net/th?id=OIP.Fp6-K1co-8ErwqNBYyYbJgHaLH&pid=Api&P=0" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Alan Walker</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://static2.yan.vn/YanNews/2167221/202002/orange-la-ai-tieu-su-su-nghiep-doi-tu-cua-nu-ca-si-khuong-hoan-my-a3e89f6b.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Orange</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://static1.dienanh.net/upload/202209/aacad0ac-6a9e-4f2a-90f0-1e273ee45e6c.jpeg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>MONO</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://tse2.mm.bing.net/th?id=OIP.MgMSHsE5DSkyZqmHlrv6qwHaJh&pid=Api&P=0" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Erik</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://tse2.mm.bing.net/th?id=OIP.e_ZCCyFWUxsDOLnRty_LdgHaHr&pid=Api&P=0" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>NOO-Phước Thịnh</p>
+            </div>
+        </div><div class="album-holder">
+        <img class="album-image" src="https://nhacchuonghinhnen.com/wp-content/uploads/2020/06/hinh-nen-jack-j97-cuc-dep-danh-cho-dien-thoai-va-may-tinh-1-scaled.jpg" alt="aly & aj's album titled 10 Years" >
+        <div class="album-description">
+            <p>Jack Bến Tre</p>
+        </div>
+    </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://static2.yan.vn/YanNews/202011/202011040524331753-6770c6f6-1701-48a0-a3d9-7edc834dc473.jpeg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Thiều Bảo Trâm</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://tse4.mm.bing.net/th?id=OIP.KaWs64tFzsEVMXN1eo9V5gHaHa&pid=Api&P=0" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Hương Li</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://static.yeah1music.net/uploads/editors/2020/07/21/tuan-hung-khuyen-ca-si-tre-khong-nen-lam-dung-cover-1-5f16e0b773b44.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Tuấn Hưng</p>
+            </div>
+        </div><div class="album-holder">
+        <img class="album-image" src="https://tse1.mm.bing.net/th?id=OIP.4pbB3crIlSiXpBINTWH0_AHaLH&pid=Api&P=0" alt="aly & aj's album titled 10 Years" >
+        <div class="album-description">
+            <p>Miu-Lê</p>
+        </div>
+    </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://kenh14cdn.com/k:itFrmNRfhKA5rRGccccccccccccRg9/Image/2013/04/0408/BAT/130408musikBAT-3-8ac53/bui-anh-tuan-da-biet-so-sau-khi-bi-dinh-chi-tai-bai-hat-yeu-thich.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Bùi Anh Tuấn</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://www.elle.vn/wp-content/uploads/2018/06/06/elle-viet-nam-ha-anh-tuan-3.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Hà Anh Tuấn</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://media.techz.vn/media2019/source/myphan/my-t33/hoa-vinh-1.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Hoa Vinh</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://media.doisongvietnam.vn/u/rootimage/editor/2020/03/25/23/24/w825/em1585131856_3812.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Amee</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://nguoi-noi-tieng.com/photo/tieu-su-ca-si-dong-nhi-1876.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Đông Nhi</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://doisong.vn/stores/news_dataimages/hothuy/082020/09/06/ca-si-ho-ngoc-ha-gay-bat-ngo-voi-album-thu-am-truc-tiep-moi-la-28-.4113.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Hồ Ngọc Hà</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://s1.media.ngoisao.vn/resize_580/news/2020/05/15/img_3810-ngoisaovn-w600-h900.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Hương Tràm</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://imgix.bustle.com/rehost/2016/9/13/3699a396-0372-4d4f-a259-cfab61586281.jpg?w=800&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Justin Bieber</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://www.pixel-creation.com/wp-content/uploads/charlie-puth-snapchat-username-snapcode-gazette-review-800x800.png" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Charlie Puth</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://nguoinoitieng.tv/images/nnt/97/2/bb8w.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>J.Fla</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://img.docbao.vn/images/uploads/2020/03/14/892044921089652607274298328976403479396352n-1584110654488755505118.jpg" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Min</p>
+            </div>
+        </div>
+        <div class="album-holder">
+            <img class="album-image" src="https://tse1.mm.bing.net/th?id=OIP.gf1vDF1-xDk9ggaMWR_CpQHaLG&pid=Api&P=0" alt="aly & aj's album titled 10 Years" >
+            <div class="album-description">
+                <p>Quân A.P</p>
+            </div>
+        </div>
+    </div>
+</article>
+<script type="text/javascript" src="libs/megamenu/js/vendor/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="libs/megamenu/js/megamenu.js"></script>
+<script type="text/javascript" src="libs/bootstrap5.2.1/js/bootstrap.bundle.min.js"></script>
 </body>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script>
-    const nav = document.querySelector('nav');
-    const toggle_menu = document.querySelector('.toggle_menu');
-    const content = document.querySelector('content');
-    toggle_menu.onclick = function (){
-        nav.classList.toggle('hide');
-        content.classList.toggle('expand');
-    }
-</script>
 </html>
