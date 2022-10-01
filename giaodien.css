@@ -231,7 +231,7 @@ nav.section{
 
 .slider{
     left: 50%;
-    margin-right: 17%;
+    margin-right: 25%;
     position: inherit;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, 0%);
@@ -241,9 +241,15 @@ nav.section{
 .carousel-item img{
     left: 50%;
     position: center;
-    transform: translate(10%, -15%);
+    transform: translate(10%, -10%);
 }
-
-
-
+video {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
 
