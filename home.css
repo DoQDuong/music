@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.button {
+    border-radius: 20px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 2px solid #413f3f;
+    color: #413f3f;
+    font-size: 15px;
+}
+
+.button:hover {
+    background: #413f3f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.albums {
+    float: left;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+}
+
+.album-holder {
+    position: relative;
+}
+
+.album-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.album-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.album-description p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.album-holder:hover .album-description {
+    cursor: pointer;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 700px) {
+    .albums {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .heading {
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .albums {
+        grid-template-columns: 1fr;
+    }
+
+    .heading {
+        margin: 30px 0;
+    }
+}
