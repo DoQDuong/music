@@ -13,6 +13,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: white;
 }
 li{
     list-style: none;
@@ -233,15 +234,20 @@ nav.section{
     left: 50%;
     margin-right: 25%;
     position: inherit;
+    color: whitesmoke;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, 0%);
     -moz-transform: translate(-50%, 0%);
     -o-transform: translate(-50%, 0%);
+    font-family: "Droid Sans";
+    src: url(sansation_light.woff);
+
 }
+
 .carousel-item img{
     left: 50%;
     position: center;
-    transform: translate(10%, -10%);
+    transform: translate(12%, -10%);
 }
 video {
     width: 100%;
