@@ -376,7 +376,10 @@ tr:hover th.th-no {
 }
 
 
-
-
-
-
+.table-title h3 {
+    color: white;
+    font-size: 68px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 580px;
+}
