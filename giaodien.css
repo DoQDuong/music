@@ -334,12 +334,13 @@ video {
     margin-left: 50px;
 }
 h3{
-    color: DarkTurquoise;
+    color: white;
 }
 h4{
-    color: DarkTurquoise;
+    color: white;
     margin-top: 8px;
 }
+
 .play-icon-1 {
     width: 30px;
     height: 30px;
@@ -391,4 +392,11 @@ tr:hover th.th-no {
     font-weight: 700;
     margin-bottom: 20px;
     margin-left: 580px;
+}
+h4 a{
+    text-decoration: none;
+    color: white;
+}
+h4 a:hover {
+    color: #00B4CC;
 }
