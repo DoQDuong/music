@@ -9,7 +9,7 @@ function playPause() {
         isPlaying = false;
     } else {
         song0.pause();
-        playBtn.innerHTML = `<div class="player-inner"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying = true;
     }
 }
@@ -24,7 +24,7 @@ function playPause1() {
         isPlaying1 = false;
     } else {
         song1.pause();
-        playBtn1.innerHTML = `<div class="player-inner-1"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn1.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying1 = true;
     }
 }
@@ -39,7 +39,7 @@ function playPause2() {
         isPlaying2 = false;
     } else {
         song2.pause();
-        playBtn2.innerHTML = `<div class="player-inner-2"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn2.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying2 = true;
     }
 }
@@ -50,11 +50,11 @@ playBtn3.addEventListener("click", playPause3);
 function playPause3() {
     if (isPlaying3) {
         song3.play();
-        playBtn3.innerHTML = `<p><a class="pause-3">❚❚</a></p>`;
+        playBtn3.innerHTML = `<p><a class="pause">❚❚</a></p>`;
         isPlaying3 = false;
     } else {
         song3.pause();
-        playBtn3.innerHTML = `<div class="player-inner-3"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn3.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying3 = true;
     }
 }
@@ -69,7 +69,7 @@ function playPause4() {
         isPlaying4 = false;
     } else {
         song4.pause();
-        playBtn4.innerHTML = `<div class="player-inner-4"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn4.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying4 = true;
     }
 }
@@ -84,7 +84,7 @@ function playPause5() {
         isPlaying5 = false;
     } else {
         song5.pause();
-        playBtn5.innerHTML = `<div class="player-inner-5"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn5.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying5 = true;
     }
 }
@@ -99,7 +99,7 @@ function playPause6() {
         isPlaying6 = false;
     } else {
         song6.pause();
-        playBtn6.innerHTML = `<div class="player-inner-6"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn6.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying6 = true;
     }
 }
@@ -114,7 +114,7 @@ function playPause7() {
         isPlaying7 = false;
     } else {
         song7.pause();
-        playBtn7.innerHTML = `<div class="player-inner-7"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn7.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying7 = true;
     }
 }
@@ -129,7 +129,7 @@ function playPause8() {
         isPlaying8 = false;
     } else {
         song8.pause();
-        playBtn8.innerHTML = `<div class="player-inner-8"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn8.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying8 = true;
     }
 }
@@ -144,7 +144,7 @@ function playPause9() {
         isPlaying9 = false;
     } else {
         song9.pause();
-        playBtn9.innerHTML = `<div class="player-inner-9"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn9.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying9 = true;
     }
 }
@@ -159,7 +159,7 @@ function playPause10() {
         isPlaying10 = false;
     } else {
         song10.pause();
-        playBtn10.innerHTML = `<div class="player-inner-10"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn10.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying10 = true;
     }
 }
@@ -174,7 +174,7 @@ function playPause11() {
         isPlaying11 = false;
     } else {
         song11.pause();
-        playBtn11.innerHTML = `<div class="player-inner-11"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn11.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying11 = true;
     }
 }
@@ -189,7 +189,7 @@ function playPause12() {
         isPlaying12 = false;
     } else {
         song12.pause();
-        playBtn12.innerHTML = `<div class="player-inner-12"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn12.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying12 = true;
     }
 }
@@ -204,7 +204,7 @@ function playPause13() {
         isPlaying13 = false;
     } else {
         song13.pause();
-        playBtn13.innerHTML = `<div class="player-inner-13"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn13.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying13 = true;
     }
 }
@@ -219,7 +219,7 @@ function playPause14() {
         isPlaying14 = false;
     } else {
         song14.pause();
-        playBtn14.innerHTML = `<div class="player-inner-14"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn14.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying14 = true;
     }
 }
@@ -234,7 +234,7 @@ function playPause15() {
         isPlaying15 = false;
     } else {
         song15.pause();
-        playBtn15.innerHTML = `<div class="player-inner-15"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn15.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying15 = true;
     }
 }
@@ -249,7 +249,7 @@ function playPause16() {
         isPlaying16 = false;
     } else {
         song16.pause();
-        playBtn16.innerHTML = `<div class="player-inner-16"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn16.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying16 = true;
     }
 }
@@ -264,7 +264,7 @@ function playPause17() {
         isPlaying17 = false;
     } else {
         song17.pause();
-        playBtn17.innerHTML = `<div class="player-inner-17"><p><a class="play-icon-1">▶</a></p></div>`;
+        playBtn17.innerHTML = `<p><a class="play-icon-1">▶</a></p>`;
         isPlaying17 = true;
     }
 }
@@ -279,7 +279,7 @@ function playPause18() {
         isPlaying18 = false;
     } else {
         song18.pause();
-        playBtn18.innerHTML = `<div class="player-inner-18"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn18.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying18 = true;
     }
 }const song19 = document.getElementById("song19");
@@ -293,7 +293,7 @@ function playPause19() {
         isPlaying19 = false;
     } else {
         song19.pause();
-        playBtn19.innerHTML = `<div class="player-inner-19"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn19.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying19 = true;
     }
 }
@@ -308,7 +308,7 @@ function playPause20() {
         isPlaying20 = false;
     } else {
         song20.pause();
-        playBtn20.innerHTML = `<div class="player-inner-20"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn20.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying20 = true;
     }
 }
@@ -323,7 +323,7 @@ function playPause21() {
         isPlaying21 = false;
     } else {
         song21.pause();
-        playBtn21.innerHTML = `<div class="player-inner-21"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn21.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying21 = true;
     }
 }
@@ -338,7 +338,7 @@ function playPause22() {
         isPlaying22 = false;
     } else {
         song22.pause();
-        playBtn22.innerHTML = `<div class="player-inner-22"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn22.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying22 = true;
     }
 }
@@ -353,7 +353,7 @@ function playPause23() {
         isPlaying23 = false;
     } else {
         song23.pause();
-        playBtn23.innerHTML = `<div class="player-inner-23"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn23.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying23 = true;
     }
 }
@@ -368,7 +368,7 @@ function playPause24() {
         isPlaying24 = false;
     } else {
         song24.pause();
-        playBtn24.innerHTML = `<div class="player-inner-24"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn24.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying24 = true;
     }
 }
@@ -383,7 +383,7 @@ function playPause25() {
         isPlaying25 = false;
     } else {
         song25.pause();
-        playBtn25.innerHTML = `<div class="player-inner-25"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn25.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying25 = true;
     }
 }
@@ -398,7 +398,7 @@ function playPause26() {
         isPlaying26 = false;
     } else {
         song26.pause();
-        playBtn26.innerHTML = `<div class="player-inner-26"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn26.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying26 = true;
     }
 }
@@ -413,7 +413,7 @@ function playPause27() {
         isPlaying27 = false;
     } else {
         song27.pause();
-        playBtn27.innerHTML = `<div class="player-inner-27"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn27.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying27 = true;
     }
 }
@@ -428,7 +428,7 @@ function playPause28() {
         isPlaying28 = false;
     } else {
         song28.pause();
-        playBtn28.innerHTML = `<div class="player-inner-28"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn28.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying28 = true;
     }
 }
@@ -443,7 +443,7 @@ function playPause29() {
         isPlaying29 = false;
     } else {
         song29.pause();
-        playBtn29.innerHTML = `<div class="player-inner-29"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn29.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying29 = true;
     }
 }
@@ -458,7 +458,7 @@ function playPause30() {
         isPlaying30 = false;
     } else {
         song30.pause();
-        playBtn30.innerHTML = `<div class="player-inner-30"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn30.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying30 = true;
     }
 }
@@ -473,7 +473,7 @@ function playPause31() {
         isPlaying31 = false;
     } else {
         song31.pause();
-        playBtn31.innerHTML = `<div class="player-inner-31"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn31.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying31 = true;
     }
 }
@@ -488,7 +488,7 @@ function playPause32() {
         isPlaying32 = false;
     } else {
         song32.pause();
-        playBtn32.innerHTML = `<div class="player-inner-32"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn32.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying32 = true;
     }
 }
@@ -503,7 +503,7 @@ function playPause33() {
         isPlaying33 = false;
     } else {
         song33.pause();
-        playBtn33.innerHTML = `<div class="player-inner-33"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn33.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying33 = true;
     }
 }
@@ -518,7 +518,7 @@ function playPause34() {
         isPlaying34 = false;
     } else {
         song34.pause();
-        playBtn34.innerHTML = `<div class="player-inner-34"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn34.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying34 = true;
     }
 }
@@ -533,7 +533,7 @@ function playPause35() {
         isPlaying35 = false;
     } else {
         song35.pause();
-        playBtn35.innerHTML = `<div class="player-inner-35"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn35.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying35 = true;
     }
 }
@@ -548,7 +548,7 @@ function playPause36() {
         isPlaying36 = false;
     } else {
         song36.pause();
-        playBtn36.innerHTML = `<div class="player-inner-36"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn36.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying36 = true;
     }
 }
@@ -563,7 +563,7 @@ function playPause37() {
         isPlaying37 = false;
     } else {
         song37.pause();
-        playBtn37.innerHTML = `<div class="player-inner-37"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn37.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying37 = true;
     }
 }
@@ -578,7 +578,7 @@ function playPause38() {
         isPlaying38 = false;
     } else {
         song38.pause();
-        playBtn38.innerHTML = `<div class="player-inner-38"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn38.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying38 = true;
     }
 }
@@ -593,7 +593,7 @@ function playPause39() {
         isPlaying39 = false;
     } else {
         song39.pause();
-        playBtn39.innerHTML = `<div class="player-inner-39"><p><a class="play-icon">▶</a></p></div>`;
+        playBtn39.innerHTML = `<p><a class="play-icon">▶</a></p>`;
         isPlaying39 = true;
     }
 }
