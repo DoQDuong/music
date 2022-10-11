@@ -395,6 +395,7 @@ tr:hover th.th-no {
     font-weight: 700;
     margin-top: 50px;
     margin-left: 580px;
+    background-color: rgba(0, 0, 0, 0.0);
 }
 h4 a{
     text-decoration: none;
