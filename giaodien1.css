@@ -259,7 +259,7 @@ video {
     top: 0;
     left: 0;
     object-fit: cover;
-    transition: 100ms;
+    transition: 1000ms;
 }
 .play-icon{
     width: 50px;
