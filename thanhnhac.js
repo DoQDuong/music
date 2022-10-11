@@ -447,3 +447,153 @@ function playPause29() {
         isPlaying29 = true;
     }
 }
+const song30 = document.getElementById("song30");
+const playBtn30 = document.querySelector(".player-inner-30");
+let isPlaying30 = true;
+playBtn30.addEventListener("click", playPause30);
+function playPause30() {
+    if (isPlaying30) {
+        song30.play();
+        playBtn30.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying30 = false;
+    } else {
+        song30.pause();
+        playBtn30.innerHTML = `<div class="player-inner-30"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying30 = true;
+    }
+}
+const song31 = document.getElementById("song31");
+const playBtn31 = document.querySelector(".player-inner-31");
+let isPlaying31 = true;
+playBtn31.addEventListener("click", playPause31);
+function playPause31() {
+    if (isPlaying31) {
+        song31.play();
+        playBtn31.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying31 = false;
+    } else {
+        song31.pause();
+        playBtn31.innerHTML = `<div class="player-inner-31"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying31 = true;
+    }
+}
+const song32 = document.getElementById("song32");
+const playBtn32 = document.querySelector(".player-inner-32");
+let isPlaying32 = true;
+playBtn32.addEventListener("click", playPause32);
+function playPause32() {
+    if (isPlaying32) {
+        song32.play();
+        playBtn32.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying32 = false;
+    } else {
+        song32.pause();
+        playBtn32.innerHTML = `<div class="player-inner-32"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying32 = true;
+    }
+}
+const song33 = document.getElementById("song33");
+const playBtn33 = document.querySelector(".player-inner-33");
+let isPlaying33 = true;
+playBtn33.addEventListener("click", playPause33);
+function playPause33() {
+    if (isPlaying33) {
+        song33.play();
+        playBtn33.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying33 = false;
+    } else {
+        song33.pause();
+        playBtn33.innerHTML = `<div class="player-inner-33"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying33 = true;
+    }
+}
+const song34 = document.getElementById("song34");
+const playBtn34 = document.querySelector(".player-inner-34");
+let isPlaying34 = true;
+playBtn34.addEventListener("click", playPause34);
+function playPause34() {
+    if (isPlaying34) {
+        song34.play();
+        playBtn34.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying34 = false;
+    } else {
+        song34.pause();
+        playBtn34.innerHTML = `<div class="player-inner-34"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying34 = true;
+    }
+}
+const song35 = document.getElementById("song35");
+const playBtn35 = document.querySelector(".player-inner-35");
+let isPlaying35 = true;
+playBtn35.addEventListener("click", playPause35);
+function playPause35() {
+    if (isPlaying35) {
+        song35.play();
+        playBtn35.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying35 = false;
+    } else {
+        song35.pause();
+        playBtn35.innerHTML = `<div class="player-inner-35"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying35 = true;
+    }
+}
+const song36 = document.getElementById("song36");
+const playBtn36 = document.querySelector(".player-inner-36");
+let isPlaying36 = true;
+playBtn36.addEventListener("click", playPause36);
+function playPause36() {
+    if (isPlaying36) {
+        song36.play();
+        playBtn36.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying36 = false;
+    } else {
+        song36.pause();
+        playBtn36.innerHTML = `<div class="player-inner-36"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying36 = true;
+    }
+}
+const song37 = document.getElementById("song37");
+const playBtn37 = document.querySelector(".player-inner-37");
+let isPlaying37 = true;
+playBtn37.addEventListener("click", playPause37);
+function playPause37() {
+    if (isPlaying37) {
+        song37.play();
+        playBtn37.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying37 = false;
+    } else {
+        song37.pause();
+        playBtn37.innerHTML = `<div class="player-inner-37"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying37 = true;
+    }
+}
+const song38 = document.getElementById("song38");
+const playBtn38 = document.querySelector(".player-inner-38");
+let isPlaying38 = true;
+playBtn38.addEventListener("click", playPause38);
+function playPause38() {
+    if (isPlaying38) {
+        song38.play();
+        playBtn38.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying38 = false;
+    } else {
+        song38.pause();
+        playBtn38.innerHTML = `<div class="player-inner-38"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying38 = true;
+    }
+}
+const song39 = document.getElementById("song39");
+const playBtn39 = document.querySelector(".player-inner-39");
+let isPlaying39 = true;
+playBtn39.addEventListener("click", playPause39);
+function playPause39() {
+    if (isPlaying39) {
+        song39.play();
+        playBtn39.innerHTML = `<p><a class="pause">❚❚</a></p>`;
+        isPlaying39 = false;
+    } else {
+        song39.pause();
+        playBtn39.innerHTML = `<div class="player-inner-39"><p><a class="play-icon">▶</a></p></div>`;
+        isPlaying39 = true;
+    }
+}
