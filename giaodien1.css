@@ -238,7 +238,7 @@ nav.section{
     -ms-transform: translate(-50%, 0%);
     -moz-transform: translate(-50%, 0%);
     -o-transform: translate(-50%, 0%);
-    transition: 100ms
+    transition: 100ms;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
     border-radius: 100%;
@@ -259,7 +259,7 @@ video {
     top: 0;
     left: 0;
     object-fit: cover;
-    transition: all 1000ms
+    transition: 100ms;
 }
 .play-icon{
     width: 50px;
